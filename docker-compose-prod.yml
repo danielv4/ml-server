@@ -1,0 +1,6 @@
+version: "2.2"
+services:
+  custom-build-v2:
+    build:
+      context: .
+    image: ml-service

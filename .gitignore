@@ -9,3 +9,6 @@ backend/__pycache__
 
 # configs
 configs/
+
+# ssls
+ssls/

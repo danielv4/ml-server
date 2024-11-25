@@ -1,12 +1,12 @@
 import asyncio
 import requests
 import aiosmtpd.controller
+import psycopg2
+import json
 from flask import Flask, request, Response, jsonify
 from smtp_server import SMTPHandler
 from smtp_client import SmtpClient
 from flask.views import MethodView
-import psycopg2
-import json
 
 
 app = Flask(__name__)
@@ -89,8 +89,8 @@ async def run_http_server(loop, db):
         host='0.0.0.0',
         port=443,
         ssl_context=(
-            '/etc/letsencrypt/live/codeai.cloud/fullchain.pem',
-            '/etc/letsencrypt/live/codeai.cloud/privkey.pem'
+            'ssls/fullchain.pem',
+            'ssls/privkey.pem'
         ),
         debug=False
     )
