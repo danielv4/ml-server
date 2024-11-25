@@ -1,0 +1,5 @@
+vertexai
+aiosmtpd
+requests
+psycopg2-binary
+flask
