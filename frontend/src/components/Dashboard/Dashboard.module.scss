@@ -1,0 +1,15 @@
+.dashboard-panel{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-panel-content{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+}

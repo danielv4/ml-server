@@ -1,0 +1,165 @@
+.compose-panel{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 587px;
+    height: 587px;
+    z-index: 500;
+    margin-right: 30px;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.compose-panel-header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid #ebebeb;
+    flex-shrink: 0;
+}
+
+.compose-panel-header-x{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+}
+
+.compose-panel-text{
+    position: relative;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.compose-panel-minimize{
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.compose-panel-minimize-x{
+
+}
+
+.compose-panel-fullscreen{
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.compose-panel-fullscreen-x{
+    position: relative;
+    width: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.compose-panel-close{
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.compose-panel-close-x{
+    position: relative;
+    width: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.compose-panel-to{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    flex-shrink: 0;
+}
+
+.compose-panel-to-input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: sans-serif;
+    outline: none;
+    box-sizing: border-box; 
+    flex-shrink: 0;
+}
+
+.compose-panel-subject{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    flex-shrink: 0;
+}
+
+.compose-panel-subject-input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.compose-panel-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.compose-panel-content-input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+    padding: 15px;
+    font-size: 14px;
+    font-family: sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.compose-panel-buttons{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.compose-panel-btn-x1{
+    position: relative;
+    border-radius: 40px;
+    background: #0054ee;
+    display: table;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 40px;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.compose-panel-btn-x1:hover{
+    background: #0046c9;
+}

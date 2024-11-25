@@ -1,0 +1,25 @@
+.menu-text{
+    position: relative;
+    display: flex;
+}
+
+.menu-text-data{
+    position: relative;
+    line-height: 45px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.menu-text-img{
+    position: relative;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.menu-text-im{
+    position: relative;
+    width: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}

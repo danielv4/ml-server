@@ -1,0 +1,11 @@
+# keys
+frontend/node_modules
+
+# service accounts
+backend/service-accounts/
+
+# py data
+backend/__pycache__
+
+# configs
+configs/

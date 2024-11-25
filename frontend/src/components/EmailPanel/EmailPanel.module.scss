@@ -1,0 +1,277 @@
+
+.email-panel{
+    position: relative;
+    width: 100%;
+}
+
+.menu-tools{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #efefef;
+}
+
+.menu-tools-x{
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    height: 25px;
+    display: flex;
+}
+
+.menu-tools-a1{
+    position: relative;
+    display: flex;
+}
+
+.menu-tools-a2{
+    position: relative;
+    margin-left: auto;
+    display: flex;
+}
+
+.menu-tools-select{
+    position: relative;
+    display: flex;
+}
+
+.menu-tools-select-all{
+    position: relative;
+    width: 40px;
+    height: 25px;
+}
+
+.menu-tools-select-all-im{
+    border: 1px solid #000000;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.menu-tools-select-img{
+    position: relative;
+    height: 25px;
+    width: 25px;
+}
+
+.menu-tools-select-im{
+    position: absolute;
+    width: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.menu-tools-reload-img{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.menu-tools-reload-im{
+    position: relative;
+    width: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.menu-tools-reload-btn{
+
+}
+
+.menu-tools-reload-btn-x{
+
+}
+
+.menu-tools-reload-btn-a1{
+
+}
+
+.menu-tools-page-text{
+    position: relative;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-right: 15px;
+    color: gray;  
+}
+
+.menu-tools-reload-btn-a1{
+
+}
+
+.menu-tools-arrows{
+    position: relative;
+    display: flex;
+}
+
+.menu-tools-arrow-img{
+    position: relative;
+    height: 25px;
+    width: 25px;
+}
+
+.menu-tools-arrow-im{
+    position: relative;
+    width: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.menu-tabs{
+    position: relative;
+    display: flex;
+    height: 40px;
+}
+
+.menu-tab{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+
+.menu-tab:hover{
+    background: #f4f4f4;
+}
+
+.menu-tab-selected{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    display: flex; 
+    border-bottom: 2px solid #0081ff;   
+    cursor: pointer;
+}
+
+.menu-tab-selected:hover{
+    background: #f4f4f4;
+}
+
+.menu-tab-img{
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.menu-tab-im{
+    position: relative;
+    width: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.menu-tab-text{
+    position: relative;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.menu-email-item{
+    position: relative;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #e7e7e7;
+    cursor: pointer;
+}
+
+.menu-email-item-check-box{
+    position: relative;
+    height: 55px;
+    width: 40px;
+}
+
+.menu-email-item-check-box-x{
+    border: 1px solid #000000;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.menu-email-item-star{
+    position: relative;
+    height: 55px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.menu-email-item-star-im{
+    position: absolute;
+    width: 18px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.menu-email-item-name{
+    position: relative;
+    line-height: 55px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.menu-email-item-subject{
+    position: relative;
+    line-height: 55px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.menu-email-item-text{
+    position: relative;
+    line-height: 55px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.menu-email-item-timestamp{
+    position: relative;
+    line-height: 55px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: auto;
+}
+
+.menu-email-item-type{
+    position: relative;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.menu-email-item-type-x{
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #1ed925;
+    border-radius: 4px;
+    line-height: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;   
+}

@@ -1,0 +1,94 @@
+.side-panel{
+    position: relative;
+    height: 100%;
+    width: 260px;
+}
+
+.side-panel-x{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.side-panel-compose{
+    position: relative;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    gap: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background:#c2e7ff;
+}
+
+.side-panel-compose:hover{
+    background: #97d6ff;
+}
+
+.side-panel-compose-img{
+    position: relative;
+    height: 50px;
+}
+
+.side-panel-compose-im{
+    position: relative;
+    width: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.side-panel-compose-text{
+    position: relative;
+    line-height: 50px;
+    font-family: sans-serif;
+}
+
+.side-panel-button{
+    position: relative;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    border-radius: 0px 40px 40px 0px;
+    cursor: pointer;
+}
+
+.side-panel-button:hover{
+    background: #ebebeb;
+}
+
+.side-panel-button-img{
+    position: relative;
+    height: 35px;
+    width: 40px;
+}
+
+.side-panel-button-im{
+    position: relative;
+    width: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.side-panel-button-text{
+    position: relative;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+
+.side-panel-button-selected{
+    position: relative;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    background: #d3e3fd;
+    border-radius: 0px 40px 40px 0px;
+    cursor: pointer;
+}
